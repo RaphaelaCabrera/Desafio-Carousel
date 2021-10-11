@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width-device-width, initial-scale = 1.0">
+	<title>Ghibli Gallery - Adicionar fotos</title>
+	<link rel="shortcut icon" type="imagex/png" href="static/images/icon.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="/static/css/admin.css">
+</head>
+
+<body>
+	<div class = "topo">
+		<h3>Digite a url da imagem a ser inserida</h3>
+		<form action="/upload" enctype = "multipart/form-data" method="post">
+			<p>
+				<input type="file" name="imagem" id = "imagem" />
+			</p>
+
+			<p>
+				<button type="submit">Adicionar</button>
+			</p>
+		</form>
+
+	</div>
+
+</body>
+</html>

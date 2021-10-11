@@ -1,0 +1,37 @@
+
+.topo{
+	width: 100%;
+	height: 200px;
+	float: :  left;
+	padding: 10px 8%;
+	background-color: #4d9fe3;
+}
+
+.logo{
+
+	width: 300px;
+	height: 150px;
+	float: left: ;
+	background:  url('../images/logo2.png');
+}
+
+h2{
+	position: absolute;
+	color: white;
+
+}
+
+.carousel-inner > .item > img{
+   	position: absolute;
+   	background-position: center center;
+}
+
+.rodape{
+	width: 100%;
+	height: 200px;
+	float: :  left:;
+	padding: 50px 8%;
+	background-color: #4d9fe3;
+
+}
+
